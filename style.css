@@ -1,0 +1,125 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+    text-decoration: none;
+}
+
+#blog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.blog-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} 
+
+.blog-heading span {
+    color: rgb(100, 100, 221);
+}
+
+.blog-heading h1 {
+    font-size: 2.4rem;
+    color: #5ccccc;
+    font-weight: 600;
+}
+
+.blog-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+
+.blog-box {
+    width: 400px;
+    background-color: tomato;
+    border: 1px solid #5ccccc;
+    margin: 20px;
+}
+
+.blog-img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+.blog-text {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    min-height: 230px;
+}
+
+.blog-text span {
+    color:rgba(0, 0, 0, 0.05);
+    font-size: 0.9rem;
+}
+
+.blog-text .blog-title {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color:antiquewhite;
+}
+
+.blog-text p {
+    color:dimgrey;
+    font-size: 0.9rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0px;
+}
+
+.blog-text a {
+    color: #0f0f0f;
+}
+
+.blog-text a:hover {
+    color:#46b3db;
+    transition: all ease 0.3;
+}
+
+.blog-button {
+    margin: 0px 0px 10px 10px;
+    box-shadow: inset 0px 1px 0px 0px #46b3db;
+    background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+    border-radius: 6px;
+    border: 1px solid #dcdcdc;
+    cursor: pointer;
+    color: #666666;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-shadow: 0px 1px 0px #fff;
+}
+
+.blog-button:hover {
+    background: linear-gradient(to bottom, #2c91df 5%, #f6f6f6 100%);
+    background-color: #f6f6f6;
+}
+
+.blog-button:active {
+    position: relative;
+    top: 1px;
+}
+
+

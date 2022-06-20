@@ -1,0 +1,26 @@
+{
+  "name": "2022CursSV",
+  "version": "1.0.0",
+  "description": "............",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ioannna/2022CursSV.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ioannna/2022CursSV/issues"
+  },
+  "homepage": "https://github.com/Ioannna/2022CursSV#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
